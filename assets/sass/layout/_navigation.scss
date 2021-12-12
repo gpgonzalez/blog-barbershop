@@ -1,0 +1,30 @@
+nav {
+    a {
+        font: 100% $font-family;
+        font-size: 16px medium;
+        color: $primary-color;
+    }
+}
+
+nav div a img {
+    width: 120px;
+    height: auto;
+}
+
+.fondo-navbar {
+    background-color: #121619;
+}
+
+nav div a {
+    color: black;
+}
+
+.page-item.active .page-link { 
+    color: #fff;
+    background-color: #6c6e70;
+    border-color: #6c6e70;
+}
+
+.page-link {
+    color: #222323;
+}

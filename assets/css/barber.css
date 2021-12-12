@@ -1,0 +1,121 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  top: 70px;
+  font-size: 40px;
+  color: white;
+}
+@media (min-width: 740px) {
+  h1 {
+    font-size: 70px;
+    top: 110px;
+    left: 25%;
+    width: 50%;
+  }
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  color: #6c6e70;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #6c6e70;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: #d76c69;
+}
+
+a:hover {
+  color: #d76c69 !important;
+}
+
+.flecha {
+  top: 220px;
+  position: absolute;
+  font-size: 2em !important;
+}
+@media (min-width: 740px) {
+  .flecha {
+    top: 480px;
+    font-size: 4em !important;
+  }
+}
+
+.boton1 {
+  color: white;
+  display: inline-block;
+  padding: 0 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 1rem;
+  text-decoration: none !important;
+  background-color: #6c6e70;
+  font-family: "Roboto", sans-serif;
+}
+.boton1:hover {
+  background-color: #d1d1d1;
+}
+
+.boton2 {
+  color: white;
+  display: inline-block;
+  padding: 0 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-radius: 1rem;
+  text-decoration: none !important;
+  background-color: #6c6e70;
+  font-family: "Roboto", sans-serif;
+}
+.boton2:hover {
+  background-color: #d1d1d1;
+}
+
+nav a {
+  font: 100% "Roboto", sans-serif;
+  font-size: 16px medium;
+  color: #fff;
+}
+
+nav div a img {
+  width: 120px;
+  height: auto;
+}
+
+.fondo-navbar {
+  background-color: #121619;
+}
+
+nav div a {
+  color: black;
+}
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #6c6e70;
+  border-color: #6c6e70;
+}
+
+.page-link {
+  color: #222323;
+}
+
+.img-footer {
+  padding: 70px 0px 70px 0px;
+  text-align: center;
+  background: #222323;
+}
+
+/*# sourceMappingURL=barber.css.map */
